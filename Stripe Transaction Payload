@@ -1,0 +1,37 @@
+Stripe Example 
+
+GET 
+/v1/issuing/transactions/:id
+
+
+{
+  "id": "ipi_1GtFmL2eZvKYlo2C2RvA9qkq",
+  "object": "issuing.transaction",
+  "amount": -1000,
+  "amount_details": {
+    "atm_fee": null
+  },
+  "authorization": "iauth_1GtFmL2eZvKYlo2CRFW6cMA7",
+  "balance_transaction": "txn_1GtFmL2eZvKYlo2CiGEPPdym",
+  "card": "ic_1GtFmK2eZvKYlo2Cw1Y32eS5",
+  "cardholder": "ich_1GtFmJ2eZvKYlo2CojoVyGHK",
+  "created": 1591979453,
+  "currency": "usd",
+  "dispute": null,
+  "livemode": false,
+  "merchant_amount": -1000,
+  "merchant_currency": "usd",
+  "merchant_data": {
+    "category": "computer_software_stores",
+    "city": "SAN FRANCISCO",
+    "country": "US",
+    "name": "STRIPE.COM",
+    "network_id": "1234567890",
+    "postal_code": "94103",
+    "state": "CA"
+  },
+  "metadata": {
+    "order_id": "6735"
+  },
+  "type": "capture"
+}
